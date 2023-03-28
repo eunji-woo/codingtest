@@ -1,4 +1,4 @@
- n = int(input())
+n = int(input())
 
 win = [-1]*10001
 
