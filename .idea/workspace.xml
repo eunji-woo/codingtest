@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="그리디 문풀 - 홀수일 경우,, 아직 해결 못함">
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)">
+      <change afterPath="$PROJECT_DIR$/bj2606-DFS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bj1213.py" beforeDir="false" afterPath="$PROJECT_DIR$/bj1213.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,28 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eunji/Documents/GitHub/codingtest&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.bj1213">
-    <configuration name="bj1049" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\eunji\Documents\GitHub\codingtest\bj1049.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.bj2606-DFS">
     <configuration name="bj1213" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +102,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bj2606-DFS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codingtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bj2606-DFS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bj2847" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bj2606-DFS" />
         <item itemvalue="Python.bj1213" />
         <item itemvalue="Python.bj14916" />
         <item itemvalue="Python.bj2847" />
         <item itemvalue="Python.bj1449" />
-        <item itemvalue="Python.bj1049" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680198093963</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)">
+      <created>1680250326871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680250326871</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +231,7 @@
     <MESSAGE value="그리디 문제 풀이" />
     <MESSAGE value="그리디 문풀" />
     <MESSAGE value="그리디 문풀 - 홀수일 경우,, 아직 해결 못함" />
-    <option name="LAST_COMMIT_MESSAGE" value="그리디 문풀 - 홀수일 경우,, 아직 해결 못함" />
+    <MESSAGE value="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)" />
+    <option name="LAST_COMMIT_MESSAGE" value="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)" />
   </component>
 </project>
