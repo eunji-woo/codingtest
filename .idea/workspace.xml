@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="정점이 여러 개인 경우에는 정점 번호가 작은 것을 먼저 방문 = 인접행렬 이용해야함!!">
-      <change afterPath="$PROJECT_DIR$/bj1012.py" afterDir="false" />
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="상하좌우마다 지렁이를 뿌리는게 아니라,, 연결된 뭉텅이 1뭉텅이씩마다 지렁이 뿌리는거니까!! 그래프 탐색으로 풀어야한다. 생각이 짧았군">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bj1012.py" beforeDir="false" afterPath="$PROJECT_DIR$/bj1012.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680765954943</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="상하좌우마다 지렁이를 뿌리는게 아니라,, 연결된 뭉텅이 1뭉텅이씩마다 지렁이 뿌리는거니까!! 그래프 탐색으로 풀어야한다. 생각이 짧았군">
+      <created>1680770271947</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680770271947</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +255,7 @@
     <MESSAGE value="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)" />
     <MESSAGE value="dfs 공부한 날 - dfs는 스택, 재귀 이용!!!" />
     <MESSAGE value="정점이 여러 개인 경우에는 정점 번호가 작은 것을 먼저 방문 = 인접행렬 이용해야함!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="정점이 여러 개인 경우에는 정점 번호가 작은 것을 먼저 방문 = 인접행렬 이용해야함!!" />
+    <MESSAGE value="상하좌우마다 지렁이를 뿌리는게 아니라,, 연결된 뭉텅이 1뭉텅이씩마다 지렁이 뿌리는거니까!! 그래프 탐색으로 풀어야한다. 생각이 짧았군" />
+    <option name="LAST_COMMIT_MESSAGE" value="상하좌우마다 지렁이를 뿌리는게 아니라,, 연결된 뭉텅이 1뭉텅이씩마다 지렁이 뿌리는거니까!! 그래프 탐색으로 풀어야한다. 생각이 짧았군" />
   </component>
 </project>
