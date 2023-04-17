@@ -12,10 +12,13 @@ def bfs(v):
         if v == k: # 목적지까지 한 가지 경로로라도 탐색 끝난 경우
             return visited[v]
         for v2 in (v-1, v+1, 2*v):
-            if 0 <= v2 < 10001 and not visited[v2]:
+            if 0 <= v2 < 100001 and not visited[v2]:
                 visited[v2] = visited[v] + 1
                 q.append(v2)
+                for i in range(30):
+                    print(visited[i], end=" ")
+                print("")
 
 n, k = map(int, sys.stdin.readline().split())
-visited = [0] * 10001
+visited = [0] * 100001
 print(bfs(n))
