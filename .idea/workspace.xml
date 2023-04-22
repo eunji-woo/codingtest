@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="bfs+인접리스트">
-      <change afterPath="$PROJECT_DIR$/bj2750-선택+삽입정렬.py" afterDir="false" />
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="선택, 삽입 정렬 기초">
+      <change afterPath="$PROJECT_DIR$/bj1929.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eunji/Documents/GitHub/codingtest&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.bj2750-선택+삽입정렬">
+  <component name="RunManager" selected="Python.bj1929">
     <configuration name="bj11724" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bj2667" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bj1929" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bj2667.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bj1929.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bj1929" />
         <item itemvalue="Python.bj2750-선택+삽입정렬" />
         <item itemvalue="Python.bj11724" />
         <item itemvalue="Python.bj7576" />
         <item itemvalue="Python.bj1697" />
-        <item itemvalue="Python.bj2667" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681798384000</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="선택, 삽입 정렬 기초">
+      <created>1681808242866</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681808242866</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +306,7 @@
     <MESSAGE value="bfs 문제,, 아직 해결 x" />
     <MESSAGE value="bfs 문제, 토마토가 익을 수 있는 최소한의 날을 구하는거니까 bfs 이용" />
     <MESSAGE value="bfs+인접리스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="bfs+인접리스트" />
+    <MESSAGE value="선택, 삽입 정렬 기초" />
+    <option name="LAST_COMMIT_MESSAGE" value="선택, 삽입 정렬 기초" />
   </component>
 </project>
