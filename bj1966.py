@@ -1,32 +1,23 @@
-# from collections import deque
-#
-# count = int(input())
-#
-# for _ in range(count):
-#     n, m = map(int, input().split())
-#     for _ in range(n):
-#         count = 0
-#         important = deque(list(map(int, input().split())))
-#         target = important[m]
-#         while important:
-#             if len(important) == 1:
-#                 print(count + 1)
-#                 break
-#             while important[0] != max(important):
-#                 important.append(important.popleft())
-#                 print(important)
-#             count += 1
-#             if important.popleft() == target:
-#                 print(count)
-#                 break
-#             else:
-#                 continue
-#
-#
+from collections import deque
 
-idx = list(range(3))
-print(idx)
-# [0, 1, 2]
+count = int(input())
 
-# https://assaeunji.github.io/python/2020-05-04-bj1966/ 참고
-# 리스트 두개로 딕셔너리 느낌을,, 구현한 것 같다고 느꼈다.
+for _ in range(count):
+    n, m = map(int, input().split())
+    count = 0
+    important = deque(list(map(int, input().split())))
+    value = deque(list(range(len(important))))
+    target = value[m]
+    while True:
+        # print(value, target)
+        if important[0] == max(important):  # 중요도가 가장 높은게 젤 앞에 있는 경우
+            count += 1  # pop 될때마다 count 1씩 증가
+            if target == value[0]:  # targer이 pop되는 경우
+                print(count)
+                break
+            else:  # pop이 되긴 하지만 target이 아닌 다른 것이 pop 되는 경우
+                important.popleft()
+                value.popleft()
+        else:  # 중요도가 가장 높은게 젤 앞에 있는 경우가 아니면
+            important.append(important.popleft())
+            value.append(value.popleft())

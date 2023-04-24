@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="소수 판별 - 에라토스테네스의 체">
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="구현 방법 생각,,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bj1966.py" beforeDir="false" afterPath="$PROJECT_DIR$/bj1966.py" afterDir="false" />
     </list>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682167534962</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="구현 방법 생각,,">
+      <created>1682268858297</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682268858297</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +329,7 @@
     <MESSAGE value="bfs+인접리스트" />
     <MESSAGE value="선택, 삽입 정렬 기초" />
     <MESSAGE value="소수 판별 - 에라토스테네스의 체" />
-    <option name="LAST_COMMIT_MESSAGE" value="소수 판별 - 에라토스테네스의 체" />
+    <MESSAGE value="구현 방법 생각,," />
+    <option name="LAST_COMMIT_MESSAGE" value="구현 방법 생각,," />
   </component>
 </project>
