@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="이진탐색 문제 + set 자료형">
-      <change afterPath="$PROJECT_DIR$/bj10828.py" afterDir="false" />
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bj10828.py" beforeDir="false" afterPath="$PROJECT_DIR$/bj10828.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683546599510</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="스택 문제">
+      <created>1683563415880</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683563415880</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +354,8 @@
     <MESSAGE value="구현 방법 생각,," />
     <MESSAGE value="1920 이어서 풀기 내일 꼭!!" />
     <MESSAGE value="이진탐색 문제 + set 자료형" />
-    <option name="LAST_COMMIT_MESSAGE" value="이진탐색 문제 + set 자료형" />
+    <MESSAGE value="스택 문제" />
+    <MESSAGE value="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111" />
+    <option name="LAST_COMMIT_MESSAGE" value="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111" />
   </component>
 </project>
