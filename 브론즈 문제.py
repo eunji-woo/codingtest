@@ -67,12 +67,32 @@
 # print(int(input()) - 543)
 
 ## 2562번
-import sys
-n = list()
-for _ in range(9):
-    n.append(int(sys.stdin.readline()))
-print(max(n))
-print(n.index(max(n)) + 1) # index 함수는 특정 요소의 인덱스를 찾아주는 함수
+# import sys
+# n = list()
+# for _ in range(9):
+#     n.append(int(sys.stdin.readline()))
+# print(max(n))
+# print(n.index(max(n)) + 1) # index 함수는 특정 요소의 인덱스를 찾아주는 함수
 
+## 27866번
+# n = input()
+# m = int(input())
+# print(n[m-1])
 
+## 1152번
+# s = input().split()  # 문자열 입력 받은거 split 하면 알아서 리스트로 저장됨
+# print(len(s))
 
+## 10951번
+# 종료 조건이 명시되어있지 않기 때문에 try-except로 입력이 없어 에러가 나는 경우를 처리해줘야함
+# while True:
+#     try:
+#         n, m = map(int, input().split())
+#         print(n+m)
+#     except:
+#         break
+
+## 11720번
+n = input()
+m = list(map(int, input()))
+print(sum(m))

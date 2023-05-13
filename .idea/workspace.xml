@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111">
-      <change afterPath="$PROJECT_DIR$/bj1464.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/브론즈 문제.py" afterDir="false" />
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="dp 아주 조금 이해했다.&#10;그리고 브론즈 문제 푼 사람 많은 거 조금 후다닥 풀었다.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/브론즈 문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/브론즈 문제.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683619272927</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="dp 아주 조금 이해했다.&#10;그리고 브론즈 문제 푼 사람 많은 거 조금 후다닥 풀었다.">
+      <created>1683637339099</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683637339099</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,6 +370,7 @@
     <MESSAGE value="이진탐색 문제 + set 자료형" />
     <MESSAGE value="스택 문제" />
     <MESSAGE value="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111" />
-    <option name="LAST_COMMIT_MESSAGE" value="스택 문제, 반복문으로 입력 반복해서 받을때는 input말고 readline 쓰기!!!!!!!111" />
+    <MESSAGE value="dp 아주 조금 이해했다.&#10;그리고 브론즈 문제 푼 사람 많은 거 조금 후다닥 풀었다." />
+    <option name="LAST_COMMIT_MESSAGE" value="dp 아주 조금 이해했다.&#10;그리고 브론즈 문제 푼 사람 많은 거 조금 후다닥 풀었다." />
   </component>
 </project>
