@@ -93,6 +93,78 @@
 #         break
 
 ## 11720번
-n = input()
-m = list(map(int, input()))
-print(sum(m))
+# n = input()
+# m = list(map(int, input())) # 문자열도 반복 가능한 자료형이라 map의 두번째 인자로 사용이 가능하다
+# print(sum(m))
+
+## 10810번
+# n, m = map(int, input().split())
+# b = [0] * n
+#
+# for _ in range(m):
+#     i, j, k = map(int, input().split())
+#     for i in range(i, j+1):
+#         b[i-1] = k
+#
+# for i in b:
+#     print(i)
+
+## 25304번
+# x = int(input())
+# n = int(input())
+# total = 0
+#
+# for _ in range(n):
+#     a, b = map(int, input().split())
+#     total += a*b
+#
+# if total == x:
+#     print("Yes")
+# else:
+#     print("No")
+
+## 2743번
+# print(len(input()))
+
+## 2738번
+# n, m = map(int, input().split())
+# matrix1 = []
+# matrix2 = []
+#
+# for _ in range(n):
+#     matrix1.append(list(map(int, input().split())))
+#
+# for _ in range(n):
+#     matrix2.append(list(map(int, input().split())))
+#
+# for i in range(n):
+#     for k in range(m):
+#         print(matrix1[i][k] + matrix2[i][k], end=" ")
+#     print("")
+
+## 1157번
+# n = input()
+# n = n.upper()
+# n_set = list(set(n))  # 리스트에서 중복 제거가 필요할땐!! set으로 바꿨다가 다시 리스트로 바꾸자!!!!!
+# count = []
+#
+# for i in n_set:
+#     count.append(n.count(i))
+#
+# if count.count(max(count)) >= 2:  # max로 구해진 값이 count에 2개 이상이다? = max 값이 여러개란 의미
+#     print("?")
+# else:
+#     print(n_set[count.index(max(count))])
+
+## 11718번
+# 종료 조건?이 명시되지 않았기 떄문에 try-except 문 처리
+
+import sys
+while True:
+    try:
+        print(sys.stdin.readline().strip())
+    except:
+        break
+# https://c-omealong.tistory.com/25
+# https://aia1235.tistory.com/11
+
