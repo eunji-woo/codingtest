@@ -158,13 +158,62 @@
 
 ## 11718번
 # 종료 조건?이 명시되지 않았기 떄문에 try-except 문 처리
+# while True:  # 방법 1
+#     try:
+#         print(input())
+#     except:
+#         break
+#
+# import sys  # 방법 2
+# # s = sys.stdin.readlines()
+# # for i in s:
+# #     print(i.rstrip())
+#
+# s = sys.stdin.read()  # 방법 3
+# print(s)
 
-import sys
-while True:
-    try:
-        print(sys.stdin.readline().strip())
-    except:
-        break
-# https://c-omealong.tistory.com/25
-# https://aia1235.tistory.com/11
+## 10952번
+# import sys
+# s = sys.stdin.readlines()
+# for i in s:
+#     a, b = map(int, i.strip().split())
+#     if a == 0 and b == 0:
+#         break
+#     print(a+b)
+
+## 9086번
+# import sys
+#
+# n = int(input())
+# for _ in range(n):
+#     s = sys.stdin.readline().strip()
+#     print(s[0]+s[-1])
+
+## 10988번
+# s = input()
+#
+# for i in range(len(s)//2):
+#     if s[i] == s[len(s)-i-1]:
+#         continue
+#     else:
+#         print("0")
+#         exit(0)
+#
+# print("1")
+
+## 1546번
+# n = int(input())
+# score = list(map(int, input().split()))
+#
+# m = max(score)
+#
+# for i in range(len(score)):
+#     score[i] = score[i]/m*100
+#
+# print(sum(score)/len(score))
+
+
+
+
+
 
