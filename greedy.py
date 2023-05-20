@@ -1,4 +1,4 @@
-## 2891번
+# # 2891번 -> 앞팀에게 빌리는걸 탐욕해야함
 # n, s, r = map(int, input().split())
 # s = map(int, input().split())
 # r = map(int, input().split())
@@ -33,24 +33,21 @@
 #
 # print(result.count(0))
 
-# 2891번 - 다른 사람 코드 참고해서 간결하게
-N, S, R = map(int, input().split())
-S = list(map(int, input().split()))  # 카약이 손상된 팀 번호
-R = list(map(int, input().split()))  # 카약이 남는 팀 번호
+## 2212번
+n = int(input())
+k = int(input())
+sensor = list(map(int, input().split()))
+sensor.sort()
+distance = []
+result = 0
 
-result = 0  # 출발하지 못하는 팀 수
+# for문이 n-k만큼 도는 이유?
+# -> n개의 센서에서 센서 사이의 거리는? n-1이고, 집중국 개수가 k개면 k-1개만큼 거리가 가장 먼 센서 간의 거리를 배제할 수 있음
+# (ex. n = 6이고 k = 2이면 센서를 2개의 집중국으로 묶어야 함, 즉 센서간의 거리 1개를 무시할 수 있게 됨)
+# -> n-1-(k-1) = n-k
+for i in range(0, n-1):  # 센서 개수랑 집중국 개수가 같으면 n-k은 0이라 result는 0이 됨
+    distance.append(sensor[i+1]-sensor[i])
 
-for i in S:  # 카약이 손상되었지만 여분을 가져온 팀 제거
-    if i in R:
-        S.remove(i)
-        R.remove(i)
+distance.sort()
 
-for i in S:
-    if i - 1 in R: # 손상된 팀 앞 팀이 카약이 남는지 확인
-        R.remove(i - 1)
-    elif i + 1 in R: # # 손상된 팀 뒷 팀이 카약이 남는지 확인
-        R.remove(i + 1)
-    else:  # 앞 뒤 팀한테 못 빌리면
-        result += 1
-
-print(result)
+print(sum(distance[0:n-k]))
