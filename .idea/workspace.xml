@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="그리디 1일차">
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="그리디 2일차">
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/greedy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eunji/OneDrive/문서/GitHub/codingtest&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.greedy">
+  <component name="RunManager" selected="Python.test">
     <configuration name="브론즈 문제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,27 +77,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bj10828.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="bj1920" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codingtest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bj1920.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,13 +127,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codingtest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.greedy" />
         <item itemvalue="Python.브론즈 문제" />
         <item itemvalue="Python.eunsuk" />
         <item itemvalue="Python.bj10828" />
-        <item itemvalue="Python.bj1920" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +363,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684581489534</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="그리디 2일차">
+      <created>1684598932206</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598932206</updated>
+    </task>
+    <task id="LOCAL-00030" summary="그리디 2일차">
+      <created>1684598937575</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684598937575</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="커밋 못했던거,," />
     <MESSAGE value="그리디 문제 풀이" />
     <MESSAGE value="그리디 문풀" />
     <MESSAGE value="그리디 문풀 - 홀수일 경우,, 아직 해결 못함" />
@@ -403,6 +416,7 @@
     <MESSAGE value="리스트 요소 중복 없앨땐 set 이용하자, 종료 조건이 없을땐 try except 문 이용하자" />
     <MESSAGE value="readline()은 입력이 없어도 에러가 안 나고 공백이 입력된다 + a = [_ for _ in range(n)] 과 같이 리스트 공백으로 초기화 가능하다" />
     <MESSAGE value="그리디 1일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="그리디 1일차" />
+    <MESSAGE value="그리디 2일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="그리디 2일차" />
   </component>
 </project>
