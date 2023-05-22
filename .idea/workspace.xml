@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment="친구 과제 도와주기">
+    <list default="true" id="c1178a69-b5a2-4998-a42a-41f22d5e4002" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/greedy.py" beforeDir="false" afterPath="$PROJECT_DIR$/greedy.py" afterDir="false" />
     </list>
@@ -42,7 +42,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/eunji/OneDrive/문서/GitHub/codingtest&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.greedy">
     <configuration name="브론즈 문제" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codingtest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.greedy" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.브론즈 문제" />
         <item itemvalue="Python.eunsuk" />
         <item itemvalue="Python.bj10828" />
@@ -384,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684756323484</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary=".">
+      <created>1684759490350</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684759490353</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="그리디 문풀" />
     <MESSAGE value="그리디 문풀 - 홀수일 경우,, 아직 해결 못함" />
     <MESSAGE value="그리디 문풀 - 다른 사람 풀이를 봤당 ㅠ 너무 어려웡 (Counter 클래스 새롭게 알았음)" />
     <MESSAGE value="dfs 공부한 날 - dfs는 스택, 재귀 이용!!!" />
@@ -424,6 +430,7 @@
     <MESSAGE value="그리디 1일차" />
     <MESSAGE value="그리디 2일차" />
     <MESSAGE value="친구 과제 도와주기" />
-    <option name="LAST_COMMIT_MESSAGE" value="친구 과제 도와주기" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

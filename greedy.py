@@ -52,7 +52,41 @@
 #
 # print(sum(distance[0:n-k]))
 
+## 1715번  - 시간 초과 코드
+# import sys
+#
+# n = int(input())
+# n_list = []
+# for _ in range(n):
+#     n_list.append(int(sys.stdin.readline()))
+#
+# result = 0
+#
+# while len(n_list) >= 2:
+#     n_list.sort()
+#     result += n_list[0] + n_list[1]
+#     n_list.append(n_list[0] + n_list[1])
+#     n_list.pop(0)
+#     n_list.pop(0)
+#
+# print(result)
+
 ## 1715번
-n = int(input())
-n_list = list(map(int, input().split()))
-n_list.sort()
+# 반복되는 sort()로 인한 시간 초과를 피하려면 파이썬의 heapq 모듈을 이용해 리스트를 힙 처럼 이용해야함
+# heapq = 최소 힙 모듈 (추가 작업을 통해 최대 힙 구현 가능), 최소 힙 => 최소값 찾을 때 유용
+# import sys
+# import heapq
+#
+# n = int(input())
+# n_list = []
+# result = 0
+#
+# for _ in range(n):
+#     heapq.heappush(n_list, int(sys.stdin.readline()))
+#
+# while len(n_list) >= 2:
+#     temp = heapq.heappop(n_list) + heapq.heappop(n_list)
+#     result += temp
+#     heapq.heappush(n_list, temp)
+#
+# print(result)
