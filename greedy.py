@@ -90,3 +90,16 @@
 #     heapq.heappush(n_list, temp)
 #
 # print(result)
+
+## 1541번
+# 최솟값을 만들기 위해서는 - 기준으로 괄호를 치면 된다
+# 55 - 50 + 40 - 30 + 20
+# 위와 같이 입력을 받았을때 - 기준으로
+# 55 - (50 + 40) - (30 + 20) 하면 최솟값이 된다.
+n_list = input().split("-")
+result = int(n_list[0]) * 2
+
+for i in n_list:
+    result -= eval(i)
+
+print(result)
