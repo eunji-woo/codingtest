@@ -34,20 +34,25 @@
 # print(result.count(0))
 
 ## 2212번
+# n = int(input())
+# k = int(input())
+# sensor = list(map(int, input().split()))
+# sensor.sort()
+# distance = []
+# result = 0
+#
+# # for문이 n-k만큼 도는 이유?
+# # -> n개의 센서에서 센서 사이의 거리의 수는? n-1이고, 집중국 개수가 k개면 k-1개만큼 거리가 가장 먼 센서 간의 거리를 배제할 수 있음
+# # (ex. n = 6이고 k = 2이면 센서를 2개의 집중국으로 묶어야 함, 즉 센서간의 거리 1개를 무시할 수 있게 됨)
+# # -> n-1-(k-1) = n-k
+# for i in range(0, n-1):  # 센서 개수랑 집중국 개수가 같으면 n-k은 0이라 result는 0이 됨
+#     distance.append(sensor[i+1]-sensor[i])
+#
+# distance.sort()
+#
+# print(sum(distance[0:n-k]))
+
+## 1715번
 n = int(input())
-k = int(input())
-sensor = list(map(int, input().split()))
-sensor.sort()
-distance = []
-result = 0
-
-# for문이 n-k만큼 도는 이유?
-# -> n개의 센서에서 센서 사이의 거리는? n-1이고, 집중국 개수가 k개면 k-1개만큼 거리가 가장 먼 센서 간의 거리를 배제할 수 있음
-# (ex. n = 6이고 k = 2이면 센서를 2개의 집중국으로 묶어야 함, 즉 센서간의 거리 1개를 무시할 수 있게 됨)
-# -> n-1-(k-1) = n-k
-for i in range(0, n-1):  # 센서 개수랑 집중국 개수가 같으면 n-k은 0이라 result는 0이 됨
-    distance.append(sensor[i+1]-sensor[i])
-
-distance.sort()
-
-print(sum(distance[0:n-k]))
+n_list = list(map(int, input().split()))
+n_list.sort()
